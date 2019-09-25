@@ -7,12 +7,7 @@ import ProfessionalExperience from './ProfessionalExperience';
 import KeySkills from './KeySkills';
 import Logo from './csmlogo.png';
 class Header extends React.Component {
-  constructor(props){
-    super(props);
-
-
-  }
-    render() {
+     render() {
       return (
        <div>
                   <div className="Resume" style={{textAlign:'center' }}>
@@ -40,6 +35,7 @@ class Header extends React.Component {
  
       </div>
 <KeySkills 
+
 Scrum ="Programming Languages: SQL, JAVA, Vb.Net,HTML" 
 skill2="Development Methodologies: Agile, Waterfall"
 skill3="Strong communication skills"
